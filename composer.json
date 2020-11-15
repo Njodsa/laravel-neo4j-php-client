@@ -19,11 +19,11 @@
     "require": {
         "illuminate/support": "^7.0 | ^8.0",
         "php": "^7.1",
-        "graphaware/neo4j-php-client": "^4.8"
+        "graphaware/neo4j-php-client": "^4.8",
     },
     "autoload": {
         "psr-4": {
-            "TSF\\Neo4jClient\\": "src"
+            "Njodsa\\Neo4jClient\\": "src"
         }
     },
     "extra": {
@@ -33,5 +33,6 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+       "minimum-stability": "stable"
 }
