@@ -1,19 +1,19 @@
 {
-    "name": "tsf/laravel-neo4j-php-client",
+    "name": "njodsa/laravel-neo4j-php-client",
     "type": "library",
     "description": "Laravel wrapper for Neo4j-PHP-Client",
     "keywords": [
-        "tsf",
+        "njodsa",
         "laravel",
         "neo4j",
         "php"
     ],
-    "homepage": "https://github.com/tsf/laravel-neo4j-php-client",
+    "homepage": "https://github.com/njodsa/laravel-neo4j-php-client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Marian Perca",
-            "email": "marian@thesoftwarefarm.co.uk"
+            "name": "Nojd AlDammaen",
+            "email": "-"
         }
     ],
     "require": {
