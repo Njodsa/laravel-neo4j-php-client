@@ -1,29 +1,29 @@
 {
-    "name": "Njodsa/laravel-neo4j-php-client",
+    "name": "njodsa/laravel-neo4j-php-client",
     "type": "library",
     "description": "Laravel wrapper for Neo4j-PHP-Client",
     "keywords": [
-        "Njodsa",
+        "njodsa",
         "laravel",
         "neo4j",
         "php"
     ],
-    "homepage": "https://github.com/Njodsa/laravel-neo4j-php-client",
+    "homepage": "https://github.com/njodsa/laravel-neo4j-php-client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nojd AlDammaen",
-            "email": "-"
+            "name": "Marian Perca",
+            "email": "marian@thesoftwarefarm.co.uk"
         }
     ],
     "require": {
-        "illuminate/support": "^7.0 | ^8.0",
+        "illuminate/support": "^8.0",
         "php": "^7.1",
-        "graphaware/neo4j-php-client": "^4.8",
+        "graphaware/neo4j-php-client": "^4.8"
     },
     "autoload": {
         "psr-4": {
-            "Njodsa\\Neo4jClient\\": "src"
+            "TSF\\Neo4jClient\\": "src"
         }
     },
     "extra": {
@@ -33,6 +33,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-       "minimum-stability": "stable"
+    }
 }
